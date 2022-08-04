@@ -1,0 +1,39 @@
+#home-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.right-panel {
+  width: 80%;
+}
+.Headercontainer {
+  display: flex;
+  flex-direction: row;
+}
+.search-element {
+  border: none;
+  outline: none;
+}
+.content-section {
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  .charts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 577px) and( max-width: 1200px) {
+  .charts-container {
+    display: none;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  .charts-container {
+    display: flex;
+  }
+}

@@ -1,0 +1,18 @@
+.variation-cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 576px) {
+  .variation-cards-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+  .variation-cards-container {
+    flex-wrap: wrap;
+  }
+}

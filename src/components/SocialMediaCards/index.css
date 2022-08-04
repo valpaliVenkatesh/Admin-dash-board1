@@ -1,0 +1,19 @@
+.social-media-card-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media (max-width: 576px) {
+  .social-media-card-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .social-media-card-container {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1200px) {
+}

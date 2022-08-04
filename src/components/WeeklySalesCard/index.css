@@ -1,0 +1,56 @@
+#pie-chart-container {
+  min-height: 300px;
+  max-height: 600px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cards {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+.weeklycard0 {
+  background-color: #0088fe;
+}
+.weeklycard1 {
+  background-color: #00c49f;
+}
+.weeklycard2 {
+  background-color: #ffbb28;
+}
+.weeklycard3 {
+  background-color: #ff8042;
+}
+.pie-chart-data {
+  display: flex;
+  justify-content: space-between;
+}
+.pie-chart-card {
+  list-style-type: none;
+  padding-left: 0px;
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+  #pie-chart-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and( max-width: 1200px) {
+  #pie-chart-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #pie-chart-container {
+    width: 40%;
+  }
+}

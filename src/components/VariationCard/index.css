@@ -1,0 +1,60 @@
+.variation-card-container-first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#variation-card-container {
+  width: 30%;
+  padding: 15px;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.order-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plus-symbol {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.card1 {
+  background-image: linear-gradient(to right, #6a5acd, #0345ad);
+}
+.card3 {
+  background-image: linear-gradient(to right, #63eba7, #41d189);
+}
+.card4 {
+  background-image: linear-gradient(to right, #c75a8a, #f04692);
+}
+.card2 {
+  background-image: linear-gradient(to right, #ffa500, #c9c304);
+  background-color: #ffa500;
+}
+.total-no {
+  color: white;
+}
+.variation-icon {
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 576px) {
+  #variation-card-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and( max-width: 1200px) {
+  #variation-card-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #variation-card-container {
+    width: 30%;
+  }
+}
